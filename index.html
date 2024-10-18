@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع سياحي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .attraction {
+            margin: 20px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>اكتشف وجهاتك السياحية المفضلة</h1>
+    <nav>
+        <a href="#about">عن الموقع</a>
+        <a href="#attractions">المعالم السياحية</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>عن الموقع</h2>
+        <p>نحن نقدم معلومات عن أفضل الوجهات السياحية في العالم. انضم إلينا لاكتشاف أماكن جديدة ومثيرة!</p>
+    </section>
+
+    <section id="attractions">
+        <h2>المعالم السياحية</h2>
+        <div class="attraction">
+            <h3>أهرامات الجيزة</h3>
+            <img src="IMG-20241018-WA0051.jpg" alt="أهرامات الجيزة" style="width:100%">
+            <p>تعتبر أهرامات الجيزة من عجائب العالم السبع، وهي وجهة سياحية مشهورة في مصر.</p>
+        </div>
+        <div class="attraction">
+            <h3>برج إيفل</h3>
+            <img src="IMG-20241018-WA0052.jpg" alt="برج إيفل" style="width:100%">
+            <p>يقع برج إيفل في باريس، وهو رمز الثقافة الفرنسية وجذب سياحي شهير.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <form action="#" method="post">
+            <label for="name">الاسم:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">رسالتك:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>حقوق الطبع والنشر &copy; 2024 موقع سياحي</p>
+</footer>
+
+</body>
+</html>
